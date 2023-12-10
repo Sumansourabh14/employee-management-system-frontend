@@ -183,6 +183,9 @@ function App() {
           {isEditing && <button onClick={handleCancelEdit}>Cancel</button>}
         </form>
       </div>
+      <p style={{ position: "absolute", left: 20, bottom: 20 }}>
+        Built by Suman Sourabh
+      </p>
     </div>
   );
 }
